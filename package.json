@@ -1,0 +1,15 @@
+{
+  "name": "notas",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server/server-notas.js",
+    "dump-db": "node server/server-notas.js --dump-db"
+  },
+  "dependencies": {
+    "backend-plus": "~0.20.51",
+    "pg-triggers": "~0.2.1",
+    "type-store": "~0.2.19",
+    "codenautas-xlsx": "~0.11.12",
+    "fs-promise": "~2.0.3"
+  }
+}
